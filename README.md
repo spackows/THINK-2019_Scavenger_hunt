@@ -3,7 +3,7 @@ Samples for THINK 2019 user experience session
 
 ## Demo videos
 
-<div style="display: inline-block">
+<div style="float: left;">
 
 ### San Francisco scavenger hunt BINGO
 
@@ -11,7 +11,7 @@ Samples for THINK 2019 user experience session
 
 </div>
 
-<div style="display: inline-block">
+<div style="float: left;">
   
 ### Indoor scavenger hunt BINGO
 
