@@ -1,7 +1,12 @@
 # THINK-2019_Scavenger_hunt
 Samples for THINK 2019 user experience session
 
-## Demo video
-https://youtu.be/1u2qe3pJCyw
+## Demo videos
 
-<img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/video-still.png" width="60%"/>
+### San Francisco scavenger hunt
+
+<a href="https://youtu.be/6yKptg4t37s" target="_other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/thumbnail-san-fran.jpg" width="300px"/></a>
+
+### Indoor scavenger hunt
+
+<a href="https://youtu.be/1u2qe3pJCyw" target="_other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/thumbnail-indoor.jpg" width="300px"/></a>
