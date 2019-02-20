@@ -19,11 +19,37 @@ Sample for THINK 2019 user experience session
 
 <p>&nbsp;</p>
 
-
 ## Instructions
 These instructions describe how to build a scavenger hunt BINGO sample web app with given, indoor objects.
 
 After you get the sample working, collect images of your favourite objects or tourist destinations and make your own scavenger hunt BINGO app!
+
+<p>&nbsp;</p>
+
+
+### Prerequisites
+
+<ol>
+<li><p>Sign up for IBM Cloud: <a href="https://www.ibm.com/cloud/" target="other">IBM Cloud sign up</a></p></li>
+<li><p>Create an instance of the IBM Watson Studio service on IBM Cloud: <a href="https://cloud.ibm.com/catalog/services/watson-studio" target="other">IBM Watson Studio</a></p></li>
+<li><p>Create a project in Watson Studio:</p>
+    <ol>
+    <li>Go to https://dataplatform.cloud.ibm.com and log in (if you are not already logged in)</li>
+    <li>Click <b>New project</b>, select <b>Standard</b>, and then follow the prompts</li>
+    </ol></li>
+<li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads" target="other">install Python</a></p>
+    <ul>
+    <li>Make sure to have the installer add Python to your environments variables</li>
+    <li>Mac users, also install <code>pip</code> by issuing this command: <pre><code>sudo easy_install pip</code></pre></li>
+    <li>Mac users, also add your user base binary directory to your path:
+        <ol>
+        <li>Find the user base binary directory by running this command: <pre><code>python -m site --user-base</code></pre></li>
+        <li>Add your user base binary directory, with <code>/bin</code> appended, to the file <code>/etc/paths</code></li>
+        </ol>
+        <p>See: <a href="https://www.architectryan.com/2012/10/02/add-to-the-path-on-mac-os-x-mountain-lion" target="other">Complete instructions</a></p></li>
+    </ul></li>
+<li>To be able to push the sample web app to IBM Cloud, <a href="https://console.bluemix.net/docs/cli/reference/ibmcloud/download_cli.html#install_use" target="other">install the IBM Cloud CLI</a></li>
+</ol>
 
 <p>&nbsp;</p>
 
@@ -100,6 +126,7 @@ See: [IBM Watson Visual Recognition guidelines for good training](https://consol
 
 ### Step 2: Train a visual recognition model
 
+#### 2.1 
 <p>&nbsp;</p>
 
 
