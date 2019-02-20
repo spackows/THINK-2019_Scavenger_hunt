@@ -1,6 +1,9 @@
 # THINK-2019_Scavenger_hunt
 Sample for THINK 2019 user experience session
 
+<p>&nbsp;</p>
+
+
 ## Demo videos
 
 <table>
@@ -80,11 +83,11 @@ The images include 7 different backgrounds:
 </tr>
 </table>
 
-The file `_negative.zip` contains imags of only backgrounds, to be used as a negative class in training the model.
+The file `_negative.zip` contains images of only backgrounds, to be used as a negative class in training the model.
 
 #### Tips and comments
 - <p>With the IBM Watson Visual Recognition service, you can use images as small as 224 x 224 pixels with no loss of performance.  So, preprocessing training images to be 224 x 224  can make life easier (faster upload times, for example, than when using larger images.)</p>
-- <p>The guidelines recommend to "make sure that the backgrounds in your training images are comparable to what you expect to classify."  In our scavenger hunt scenario, the run-time background might vary.  So, the sample training images include a varity of possible backgrounds.</p>
+- <p>The guidelines recommend to "make sure that the backgrounds in your training images are comparable to what you expect to classify."  In our scavenger hunt scenario, the run-time background might vary.  So, the sample training images include a variety of possible backgrounds.</p>
 - <p>The guidelines recommend including at least 50 training images in each class.  (The sample training data here has 50 images for each class.)  Anecdotally, we have had success even with fewer images per class.  So if you don't have 50 images for one or more classes, try to train the model with what you have, because it might work well enough for you.</p>
 - <p>Because objects might be in any orientation in a scavenger hunt scenario, the training data includes images of the objects positioned every which way.  For use cases where you know the run-time orientation of objects being classified, this might not be what you want to do.</p>
 - <p>Anecdotally, including a negative class in training isn't always needed.  Experiment to determine what works best for your case.</p>
