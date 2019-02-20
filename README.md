@@ -36,7 +36,8 @@ After you get the sample working, collect images of your favourite objects or to
     <ol>
     <li>Go to https://dataplatform.cloud.ibm.com and log in (if you are not already logged in)</li>
     <li>Click <b>New project</b>, select <b>Standard</b>, and then follow the prompts</li>
-    </ol></li>
+    </ol>
+    <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html" target="other">Creating projects</a></li>
 <li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads" target="other">install Python</a></p>
     <ul>
     <li>Make sure to have the installer add Python to your environments variables</li>
@@ -124,9 +125,27 @@ See: [IBM Watson Visual Recognition guidelines for good training](https://consol
 <p>&nbsp;</p>
 
 
-### Step 2: Train a visual recognition model
+### Step 2: Create a visual recognition model
 
-#### 2.1 
+#### 2.1  Train a visual recognition model in your Watson Studio project
+
+1. <p>Click <b>Add to project</b> and then click <b>VISUAL RECOGNITION MODEL</b>.  Follow prompts to associate an instance of the IBM Visual Recognition service with your project.  This opens the visual recognition model builder.</p>
+2. <p>Replace the name "Default Custom Model" with a name you choose.</p>
+3. <p>In the data panel, drag and drop (or browse for) the 12 .zip files you downloaded in Step 1.</p>
+4. <p>In the data panel, select all of the the .zip files except <code>_negative.zip</code>, and then cick <b>Add to model</b>.</p>
+5. <p>Rename each of the classes to remove <code>.zip</code> from the end of the name.</p>
+6. <p>From the data panel, drag the file <code>_negative.zip</code> onto the <b>Negative</b> class card.</p>
+7. <p>Click <b>Train model</b>.</p>
+
+See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/visual-recognition-train.html" target="other">Training a visual recognition model</a>
+
+**Demo video**
+
+<a href="https://youtu.be/h1Zk36GdcdQ" target="other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-build-model.png" width="300px"/></a>
+
+
+#### 2.2  Test the model in Watson Studio
+
 <p>&nbsp;</p>
 
 
