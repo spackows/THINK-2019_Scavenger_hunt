@@ -12,8 +12,8 @@ Sample for THINK 2019 user experience session
     <th>San Francisco scavenger hunt BINGO</th>
   </tr>
   <tr>
-    <td><a href="https://youtu.be/1u2qe3pJCyw" target="_other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/thumbnail-indoor.jpg" width="300px"/></a></td>
-    <td><a href="https://youtu.be/6yKptg4t37s" target="_other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/thumbnail-san-fran.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/1u2qe3pJCyw" target="_other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-indoor.jpg" width="300px"/></a></td>
+    <td><a href="https://youtu.be/6yKptg4t37s" target="_other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-san-fran.jpg" width="300px"/></a></td>
   </tr>
 </table>
 
@@ -66,20 +66,20 @@ The sample training data includes 50 images of 11 indoor objects:
 </tr>
 </table>
 
-The images include 7 different backgrounds:
+The images include 8 different backgrounds:
 
 <table>
 <tr>
-  <td><b>white</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_03.png" width="100"/></td>
-  <td><b>yellow</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_07.png" width="100"/></td>
-  <td><b>beige</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_12.png" width="100"/></td>
-  <td><b>blue</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_18.png" width="100"/></td>
+  <td><b>white</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_03.png" width="100"/></td>
+  <td><b>yellow</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_07.png" width="100"/></td>
+  <td><b>beige</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_12.png" width="100"/></td>
+  <td><b>blue</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_18.png" width="100"/></td>
 </tr>
 <tr>
-  <td><b>green</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_24.png" width="100"/></td>
-  <td><b>black</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_34.png" width="100"/></td>
-  <td><b>dark wood</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_47.270.png" width="100"/></td>
-  <td><b>light wood</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/background_68.0.png" width="100"/></td>
+  <td><b>green</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_24.png" width="100"/></td>
+  <td><b>black</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_34.png" width="100"/></td>
+  <td><b>dark wood</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_47.270.png" width="100"/></td>
+  <td><b>light wood</b><br/><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/background_68.0.png" width="100"/></td>
 </tr>
 </table>
 
