@@ -1,5 +1,5 @@
 # THINK-2019_Scavenger_hunt
-Samples for THINK 2019 user experience session
+Sample for THINK 2019 user experience session
 
 ## Demo videos
 
@@ -41,7 +41,7 @@ Download these 12 .zip files to your local computer:
 - <a href="" target="other">stapler.zip</a>
 - <a href="" target="other">_nagative.zip</a>
 
-### About the sample training data
+#### About the sample training data
 
 The sample training data includes 50 images of 11 indoor objects:
 
