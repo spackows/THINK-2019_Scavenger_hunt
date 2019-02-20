@@ -125,9 +125,7 @@ See: [IBM Watson Visual Recognition guidelines for good training](https://consol
 <p>&nbsp;</p>
 
 
-### Step 2: Create a visual recognition model
-
-#### 2.1  Train a visual recognition model in your Watson Studio project
+### Step 2: Create a visual recognition model in your Watson Studio project
 
 1. <p>Click <b>Add to project</b> and then click <b>VISUAL RECOGNITION MODEL</b>.  Follow prompts to associate an instance of the IBM Visual Recognition service with your project.  This opens the visual recognition model builder.</p>
 2. <p>Replace the name "Default Custom Model" with a name you choose.</p>
@@ -143,16 +141,30 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 <a href="https://youtu.be/h1Zk36GdcdQ" target="other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-build-model.png" width="300px"/></a>
 
+<p>&nbsp;</p>
 
-#### 2.2  Test the model in Watson Studio
+
+### Step 3  Test the model in Watson Studio
 
 <p>&nbsp;</p>
 
 
-### Step 3: Prototype app code in a notebook
+### Step 4: Prototype app code in a notebook in Watson Studio
 
 <p>&nbsp;</p>
 
 
-### Step 4: Copy prototype code into a web app
+### Step 5: Copy prototype code into a web app
+
+<p>&nbsp;</p>
+
+
+### Step 6: Run th app on your local computer
+
+<p>&nbsp;</p>
+
+
+### Step 7: Push the app to the public cloud
+
+<p>&nbsp;</p>
 
