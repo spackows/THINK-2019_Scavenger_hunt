@@ -55,21 +55,11 @@ After you get the sample working, collect images of your favourite objects or to
 <p>&nbsp;</p>
 
 
-### Step 1: Collect training data
+### Step 1: Collect training and test data
 
-Download these 12 .zip files to your local computer:
-- <a href="" target="other">bowl.zip</a>
-- <a href="" target="other">brush.zip</a>
-- <a href="" target="other">bucket.zip</a>
-- <a href="" target="other">cup.zip</a>
-- <a href="" target="other">glove.zip</a>
-- <a href="" target="other">hickeytape.zip</a>
-- <a href="" target="other">measuringtape.zip</a>
-- <a href="" target="other">pig.zip</a>
-- <a href="" target="other">puzzle.zip</a>
-- <a href="" target="other">shoe.zip</a>
-- <a href="" target="other">stapler.zip</a>
-- <a href="" target="other">_nagative.zip</a>
+1. <p>Download these 12 .zip files to your local computer: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/tree/master/indoor-scavenger-hunt-model/training_data">Training data</a></p>
+2. <p>Download these 11 images to your local computer: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/tree/master/indoor-scavenger-hunt-model/test_images">Test images</a></p>
+
 
 #### About the sample training data
 
@@ -111,6 +101,28 @@ The images include 8 different backgrounds:
 </table>
 
 The file `_negative.zip` contains images of only backgrounds, to be used as a negative class in training the model.
+
+#### About the sample test images
+
+The sample test images are 11 images that were not part of the training data:
+
+<table>
+<tr>
+  <td>img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3923.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3925.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3928.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3930.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3932.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3935.jpg" width="100"/></td>
+</tr>
+<tr>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3936.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3939.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3940.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3942.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3945.jpg" width="100"/></td>
+</tr>
+</table>
 
 #### Tips and comments
 - <p>With the IBM Watson Visual Recognition service, you can use images as small as 224 x 224 pixels with no loss of performance.  So, preprocessing training images to be 224 x 224  can make life easier (faster upload times, for example, than when using larger images.)</p>
