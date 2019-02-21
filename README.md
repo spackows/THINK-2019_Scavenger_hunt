@@ -173,6 +173,10 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 ### Step 4: Prototype app code in a notebook in Watson Studio
 
+1. <p>Click <b>Add to project</b> and then click <b>NOTEBOOK</b>.</p>
+2. <p>Click the tba lebelled <b>From URL</b>.</p>
+2. <p>Paste this URL in the box: </p>
+3. 
 <p>&nbsp;</p>
 
 
