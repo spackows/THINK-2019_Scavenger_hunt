@@ -35,7 +35,7 @@ After you get the sample working, collect images of your favourite objects or to
 <li><p>Create a project in Watson Studio:</p>
     <ol>
     <li>Go to https://dataplatform.cloud.ibm.com and log in (if you are not already logged in)</li>
-    <li>Click <b>New project</b>, select <b>Standard</b>, and then follow the prompts</li>
+    <li>Click <b>New project</b>, select <b>Visual Recognition</b>, and then follow the prompts to associate needed services with the project: IBM Cloud Object Storage and IBM Watson Visual Recognition.</li>
     </ol>
     <p>See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/getting-started/projects.html" target="other">Creating projects</a></li>
 <li><p>To be able to run the sample web app on your local computer, <a href="https://www.python.org/downloads" target="other">install Python</a></p>
@@ -115,9 +115,9 @@ The file `_negative.zip` contains images of only backgrounds, to be used as a ne
 #### Tips and comments
 - <p>With the IBM Watson Visual Recognition service, you can use images as small as 224 x 224 pixels with no loss of performance.  So, preprocessing training images to be 224 x 224  can make life easier (faster upload times, for example, than when using larger images.)</p>
 - <p>The guidelines recommend to "make sure that the backgrounds in your training images are comparable to what you expect to classify."  In our scavenger hunt scenario, the run-time background might vary.  So, the sample training images include a variety of possible backgrounds.</p>
-- <p>The guidelines recommend including at least 50 training images in each class.  (The sample training data here has 50 images for each class.)  Anecdotally, we have had success even with fewer images per class.  So if you don't have 50 images for one or more classes, try to train the model with what you have, because it might work well enough for you.</p>
+- <p>The guidelines recommend including at least 50 training images in each class.  However, if you don't have 50 images for one or more classes, try to train the model with what you have, because it might work well enough for you.  (The sample training data here has 25 images for each class.)</p>
 - <p>Because objects might be in any orientation in a scavenger hunt scenario, the training data includes images of the objects positioned every which way.  For use cases where you know the run-time orientation of objects being classified, this might not be what you want to do.</p>
-- <p>Anecdotally, including a negative class in training isn't always needed.  Experiment to determine what works best for your case.</p>
+- <p>Including a negative class in training isn't always needed.  Experiment to determine what works best for your case.  (This sample includes a negative class.)</p>
 - <p>The guidelines recommend that the subject in the images take up at least 1/3 of the image.  In our case, we made a guess about where people playing a scavenger hunt would position their camera.  This meant that the measuring tape and hockey tape would be smaller in the training images than the other objects.</p>
 
 See: [IBM Watson Visual Recognition guidelines for good training](https://console.bluemix.net/docs/services/visual-recognition/customizing.html#customizing-guidelines-training)
@@ -139,12 +139,22 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 **Demo video**
 
-<a href="https://youtu.be/h1Zk36GdcdQ" target="other"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-build-model.png" width="300px"/></a>
+<a href="https://youtu.be/mbzjzmSqU50"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-build-model.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
 
 ### Step 3  Test the model in Watson Studio
+
+1. <p>When training is complete, a link to the model details page is given in a message.  Click the link to go to the model details page.  (Alternatively, click on the model name in the <b>Assets</b> page of your project to get to the model details page.)</p>
+2. <p>Click the <b>Test</b> tab.</p>
+3. <p>Download these test images to your local computer: [Test images](https://github.com/spackows/THINK-2019_Scavenger_hunt/tree/master/indoor-scavenger-hunt-model/test_images)</p>
+3. <p>Drag test images onto the test area for classification.</p>
+
+**Demo video**
+
+<a href="https://youtu.be/otzT0jfvj70"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-test-model.png" width="300px"/></a>
+
 
 <p>&nbsp;</p>
 
