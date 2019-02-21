@@ -108,7 +108,7 @@ The sample test images are 11 images that were not part of the training data:
 
 <table>
 <tr>
-  <td>img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3923.jpg" width="100"/></td>
+  <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3923.jpg" width="100"/></td>
   <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3925.jpg" width="100"/></td>
   <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3928.jpg" width="100"/></td>
   <td><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-model/test_images/DSCF3930.jpg" width="100"/></td>
