@@ -73,7 +73,7 @@ Download these 12 .zip files to your local computer:
 
 #### About the sample training data
 
-The sample training data includes 50 images of 11 indoor objects:
+The sample training data includes 25 images of 11 indoor objects:
 
 <table>
 <tr>
