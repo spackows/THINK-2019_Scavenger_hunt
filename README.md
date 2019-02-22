@@ -200,7 +200,7 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/YbML1ycFrPk"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-notebook.png" width="300px"/></a>
+<a href=""><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-notebook.png" width="300px"/></a>
 
 
 <p>&nbsp;</p>
@@ -250,16 +250,20 @@ See also:
 
 **Demo video**
 
-<a href="https://youtu.be/Tbzteezq7IE"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-copy-code.png" width="300px"/></a>
+<a href=""><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-copy-code.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
 
 ### Step 6: Run the app on your local computer
 
-See also:
+1. Open a command prompt and then navigate to the directory contianing the file <code>server.py</code>
+2. From the command line, start the Python Flask server by issuing the following command: <pre><code>python server.py</code></pre>
+3. Open a web browser to: [http://localhost:8000/](http://localhost:8000)
 
 **Demo video**
+
+<a href="https://youtu.be/-n_5mH9cOPM"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-local.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
