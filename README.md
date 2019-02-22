@@ -260,6 +260,7 @@ See also:
 1. Open a command prompt and then navigate to the directory contianing the file <code>server.py</code>
 2. From the command line, start the Python Flask server by issuing the following command: <pre><code>python server.py</code></pre>
 3. Open a web browser to: [http://localhost:8000/](http://localhost:8000)
+4. Classify one of the test images
 
 **Demo video**
 
@@ -270,7 +271,31 @@ See also:
 
 ### Step 7: Push the app to the public cloud
 
-1. <p>In IBM Cloud, create a Python Flask Cloud Foundry app: <a href="https://console.bluemix.net/catalog/starters/python">Python Flask starter app</a></p>
+<ol>
+  <li><p>In IBM Cloud, create a Python Flask Cloud Foundry app: <a href="https://console.bluemix.net/catalog/starters/python">Python Flask starter app</a></p></li>
+  <li><p>In the local file named <code>manifest.yml</code>, replace <code>app-name</code> with the name you chose for your Python Flask app starter:
+<pre><code>applications:
+- name: app-name
+  memory: 128M
+</code></pre></p></li>
+<li><p>In the local file named <code>setup.py</code>, replace <code>app-name</code> with the name you chose for your Python Flask app starter:
+<pre><code>setup(
+    name='app-name',
+    version='1.0.0',
+...
+</code></pre></p></li>
+  <li><p>On the command line, login to your IBM Cloud account by issuing the following command:
+<pre><code>bx login
+</code></pre></p></li>
+  <li><p>On the command line, target the CloudFoundry API endpoint by issuing the following command:
+<pre><code>bx target --cf
+</code></pre></p></li>
+  <li><p>On the command line, from the app working directory (where the file server.py is located)
+push your app to IBM Cloud by issuing the following command:
+<pre><code>bx app push
+</code></pre></p></li>
+</ol>
+
 
 See also:
 
