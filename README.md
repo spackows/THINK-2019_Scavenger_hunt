@@ -160,7 +160,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 1. <p>When training is complete, a link to the model details page is given in a message.  Click the link to go to the model details page.  (Alternatively, click on the model name in the <b>Assets</b> page of your project to get to the model details page.)</p>
 2. <p>Click the <b>Test</b> tab.</p>
-3. <p>Download these test images to your local computer: [Test images](https://github.com/spackows/THINK-2019_Scavenger_hunt/tree/master/indoor-scavenger-hunt-model/test_images)</p>
+3. <p>Download these test images to your local computer: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/tree/master/indoor-scavenger-hunt-model/test_images">Test images</a></p>
 3. <p>Drag test images onto the test area for classification.</p>
 
 **Demo video**
@@ -173,10 +173,36 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 
 ### Step 4: Prototype app code in a notebook in Watson Studio
 
-1. <p>Click <b>Add to project</b> and then click <b>NOTEBOOK</b>.</p>
-2. <p>Click the tba lebelled <b>From URL</b>.</p>
-2. <p>Paste this URL in the box: </p>
-3. 
+<ol>
+<li><p>Add a sample notebook to your project:</p>
+    <ol>
+    <li>Click <b>Add to project</b> and then click <b>NOTEBOOK</b></li>
+    <li>Click the tab lebeled <b>From URL</b></li>
+    <li>In the box labeled <b>Notebook URL</b>, paste in this URL: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/notebook/indoor-scavenger-hunt-notebook.ipynb">Sample notebook</a></li>
+    <li>Give the notebook a name</li>
+    <li>Click <b>Create Notebook</b></li>
+    </ol></li>
+<li><p>Paste your model ID and credentials into the notebook:</p>
+    <ol>
+    <li>From the <b>Services</b> sub-menu of the main, navigation menu, open <b>Watson Services</b> in a new browser tab</li>
+      <li>Beside your instance of the IBM Watson Visual Recognition service, click <b>Launch tool</b></li>
+      <li>In the <b>Overview</b> tab, scroll down to find the model you created in Step 2, and then copy the model ID</li>
+      <li>Paste the model ID in the notebook where needed</li>
+      <li>Back in the <b>Credentials</b> tab of the Visual Recognition tool, create some test credentials, and then copy the <code>apiky</code> value</li>
+      <li>Paste the apikey in the notebook where needed</li>
+    </ol></li>
+<li><p>Read, explore, and run the cells of the sample notebook.  Learn how to use the Watson Visual Recognition Python client to classify test images.  And begin to define functions that would be needed in a demo Python web app.</p>
+</ol>
+
+See also:
+- [Notebooks in Watson Studio](https://dataplatform.cloud.ibm.com/docs/content/analyze-data/notebooks-parent.html)
+- [IBM Watson Visual Recognition API](https://cloud.ibm.com/apidocs/visual-recognition?code=python)
+
+**Demo video**
+
+<a href="https://youtu.be/YbML1ycFrPk"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-notebook.png" width="300px"/></a>
+
+
 <p>&nbsp;</p>
 
 
