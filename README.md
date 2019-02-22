@@ -200,7 +200,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-notebook.png" width="300px"/></a>
+<a href="https://youtu.be/p5xDP5R-GtY"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-notebook.png" width="300px"/></a>
 
 
 <p>&nbsp;</p>
@@ -250,7 +250,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-copy-code.png" width="300px"/></a>
+<a href="https://youtu.be/AvX8nwS5eeg"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-copy-code.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
