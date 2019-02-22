@@ -209,11 +209,48 @@ See also:
 ### Step 5: Copy prototype code into a web app
 
 1. <p>Download and unzip the sample app from here: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-web-app/indoor-scavenger-hunt-web-app.zip">Sample Python Flask scavenger hunt app</a></p>
+2. <p>In the file <code>server.py</code>, paste your model ID and credentials (just like in the sample notebook)</p>
+3. <p>Notice that the functions <code>getKey</code>, <code>getTopClass</code>, <code>classifyImage</code>, and <code>resizeImage</code> that were prototyped in the notebook are used in the file <code>server.py</code></p>
 
-See also:
+#### Sample file highlights
+<table>
+<tr>
+  <th>File</th>
+  <th>Description</th>
+</tr>
+<tr>
+  <td><code>README.md</code></td>
+  <td>Instructions for running the app locally and pushing the app to IBM Cloud</td>
+</tr>
+<tr>
+  <td><code>server.py</code></td>
+  <td>Python Flask server code for the app</td>
+</tr>
+<tr>
+  <td><code>static/index.html</code></td>
+  <td>HTML for the web page interface of the app</td>
+</tr>
+<tr>
+  <td><code>static/javascript/javascript.js</code></td>
+  <td>Javascript functions implementation callbacks for the web page</td>
+</tr>
+<tr>
+  <td><code>static/css/styles.css</code></td>
+  <td>Controls the appearance of the web page</td>
+</tr>
+<tr>
+  <td><code>static/images/exemplars/*.png</code></td>
+  <td>Images for the BINGO card</td>
+</tr>
+<tr>
+  <td><code>static/audio/*.wav</code></td>
+  <td>Audio for indicating classification results</td>
+</tr>
+</table>
 
 **Demo video**
 
+<a href="https://youtu.be/Tbzteezq7IE"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-copy-code.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
