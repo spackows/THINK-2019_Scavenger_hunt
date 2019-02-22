@@ -22,7 +22,7 @@ Sample for THINK 2019 user experience session
 ## Instructions
 These instructions describe how to build a scavenger hunt BINGO sample web app with given, indoor objects.
 
-After you get the sample working, collect images of your favourite objects or tourist destinations and make your own scavenger hunt BINGO app!
+After you get the sample working, collect images of your favorite objects or tourist destinations and make your own scavenger hunt BINGO app!
 
 <p>&nbsp;</p>
 
@@ -142,7 +142,7 @@ See: [IBM Watson Visual Recognition guidelines for good training](https://consol
 1. <p>Click <b>Add to project</b> and then click <b>VISUAL RECOGNITION MODEL</b>.  Follow prompts to associate an instance of the IBM Visual Recognition service with your project.  This opens the visual recognition model builder.</p>
 2. <p>Replace the name "Default Custom Model" with a name you choose.</p>
 3. <p>In the data panel, drag and drop (or browse for) the 12 .zip files you downloaded in Step 1.</p>
-4. <p>In the data panel, select all of the the .zip files except <code>_negative.zip</code>, and then cick <b>Add to model</b>.</p>
+4. <p>In the data panel, select all of the the .zip files except <code>_negative.zip</code>, and then click <b>Add to model</b>.</p>
 5. <p>Rename each of the classes to remove <code>.zip</code> from the end of the name.</p>
 6. <p>From the data panel, drag the file <code>_negative.zip</code> onto the <b>Negative</b> class card.</p>
 7. <p>Click <b>Train model</b>.</p>
@@ -177,7 +177,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
 <li><p>Add a sample notebook to your project:</p>
     <ol>
     <li>Click <b>Add to project</b> and then click <b>NOTEBOOK</b></li>
-    <li>Click the tab lebeled <b>From URL</b></li>
+    <li>Click the tab labeled <b>From URL</b></li>
     <li>In the box labeled <b>Notebook URL</b>, paste in this URL: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/notebook/indoor-scavenger-hunt-notebook.ipynb">Sample notebook</a></li>
     <li>Give the notebook a name</li>
     <li>Click <b>Create Notebook</b></li>
@@ -188,7 +188,7 @@ See also: <a href="https://dataplatform.cloud.ibm.com/docs/content/analyze-data/
       <li>Beside your instance of the IBM Watson Visual Recognition service, click <b>Launch tool</b></li>
       <li>In the <b>Overview</b> tab, scroll down to find the model you created in Step 2, and then copy the model ID</li>
       <li>Paste the model ID in the notebook where needed</li>
-      <li>Back in the <b>Credentials</b> tab of the Visual Recognition tool, create some test credentials, and then copy the <code>apiky</code> value</li>
+      <li>Back in the <b>Credentials</b> tab of the Visual Recognition tool, create some test credentials, and then copy the <code>apikey</code> value</li>
       <li>Paste the apikey in the notebook where needed</li>
     </ol></li>
 <li><p>Read, explore, and run the cells of the sample notebook.  Learn how to use the Watson Visual Recognition Python client to classify test images.  And begin to define functions that would be needed in a demo Python web app.</p>
