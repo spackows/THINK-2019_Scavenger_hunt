@@ -208,15 +208,32 @@ See also:
 
 ### Step 5: Copy prototype code into a web app
 
+1. <p>Download and unzip the sample app from here: <a href="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/indoor-scavenger-hunt-web-app/indoor-scavenger-hunt-web-app.zip">Sample Python Flask scavenger hunt app</a></p>
+
+See also:
+
+**Demo video**
+
+
 <p>&nbsp;</p>
 
 
-### Step 6: Run th app on your local computer
+### Step 6: Run the app on your local computer
+
+See also:
+
+**Demo video**
 
 <p>&nbsp;</p>
 
 
 ### Step 7: Push the app to the public cloud
+
+1. <p>In IBM Cloud, create a Python Flask Cloud Foundry app: <a href="https://console.bluemix.net/catalog/starters/python">Python Flask starter app</a></p>
+
+See also:
+
+**Demo video**
 
 <p>&nbsp;</p>
 
