@@ -272,7 +272,7 @@ See also:
 ### Step 7: Push the app to the public cloud
 
 <ol>
-  <li><p>In IBM Cloud, create a Python Flask Cloud Foundry app: <a href="https://console.bluemix.net/catalog/starters/python">Python Flask starter app</a></p></li>
+  <li><p>In IBM Cloud, create a Python Flask Cloud Foundry app, size 128 MB: <a href="https://console.bluemix.net/catalog/starters/python">Python Flask starter app</a></p></li>
   <li><p>In the local file named <code>manifest.yml</code>, replace <code>app-name</code> with the name you chose for your Python Flask app starter:
 <pre><code>applications:
 - name: app-name
@@ -300,6 +300,8 @@ push your app to IBM Cloud by issuing the following command:
 See also:
 
 **Demo video**
+
+<a href=""><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-cloud.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
