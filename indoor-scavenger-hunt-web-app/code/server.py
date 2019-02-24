@@ -10,10 +10,10 @@ import json
 import re
 from PIL import Image
 
-model_id = "" # Paste your model id here
-api_key  = "" # Paste your apikey here
+model_id = "" # <-- PASTE YOUR MODEL ID HERE
+apikey   = "" # <-- PASTE YOUR APIKEY HERE
 
-visual_recognition = VisualRecognitionV3( version="2018-03-19", iam_apikey=api_key )
+visual_recognition = VisualRecognitionV3( version="2018-03-19", iam_apikey=apikey )
 
 def getKey( item ):
     return item[ "score" ]
