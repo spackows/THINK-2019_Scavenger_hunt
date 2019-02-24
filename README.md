@@ -301,7 +301,7 @@ See also:
 
 **Demo video**
 
-<a href=""><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-cloud.png" width="300px"/></a>
+<a href="https://youtu.be/jzSoO6eNmOE"><img src="https://github.com/spackows/THINK-2019_Scavenger_hunt/raw/master/instructions/thumbnail-cloud.png" width="300px"/></a>
 
 <p>&nbsp;</p>
 
