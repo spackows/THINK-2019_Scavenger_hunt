@@ -285,14 +285,14 @@ See also:
 ...
 </code></pre></p></li>
   <li><p>On the command line, login to your IBM Cloud account by issuing the following command:
-<pre><code>bx login
+<pre><code>ibmcloud login
 </code></pre></p></li>
   <li><p>On the command line, target the CloudFoundry API endpoint by issuing the following command:
-<pre><code>bx target --cf
+<pre><code>ibmcloud target --cf
 </code></pre></p></li>
   <li><p>On the command line, from the app working directory (where the file server.py is located)
 push your app to IBM Cloud by issuing the following command:
-<pre><code>bx app push
+<pre><code>ibmcloud app push
 </code></pre></p></li>
 </ol>
 
